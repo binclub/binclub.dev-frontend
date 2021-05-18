@@ -1,5 +1,20 @@
 {% extends "base.html" %}
 
+{% block head %}
+	<title>{{ section.title | safe }}</title>
+	<meta name="description" content="{{ section.description }}">
+	<meta name="keywords" content="{{ section.extra.keys }}">
+	
+	<meta itemprop="name" content="{{ section.title }}">
+	<meta itemprop="description" content="{{ section.description }}">
+	<meta itemprop="image" content="http://binclub.dev/img/Binclub_Rounded.png">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="{{ section.title }}">
+	<meta property="og:description" content="{{ section.description }}">
+	<meta property="og:image" content="https://binclub.dev/img/Binclub_Rounded.png">
+{% endblock head %}
+
 {% block content %}
-		{{ section.content | safe }}
+	{{ section.content | safe }}
 {% endblock content %}

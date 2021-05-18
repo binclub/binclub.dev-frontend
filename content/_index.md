@@ -1,6 +1,10 @@
 +++
 title = "Binclub"
+description = "Binclub develops commercial Java Bytecode obfuscation tools"
 template = "index.html"
+
+[extra]
+keys = "binclub binscure obfuscate obfuscator java jvm kotlin security protection drm decompilation bytecode"
 +++
 
 ## Binclub creates software security tools
