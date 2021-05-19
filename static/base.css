@@ -8,8 +8,8 @@
 	--background3: #435168;
 	--alt1: #004466;
 	--alt2: #C9AF9D;
-	--alt3: #F2E1AE;
-	--alt4: #E1684A;
+	--alt3: #04bb0f;
+	--alt4: #F2603C;
 }
 
 html {
@@ -59,9 +59,9 @@ th, td {
 }
 
 green {
-	color: green;
+	color: var(--alt3);
 }
 
 red {
-	color: red;
+	color: var(--alt4);
 }
