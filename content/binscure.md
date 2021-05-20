@@ -89,3 +89,7 @@ While these prices may seem high, we believe they are fair:
 
 If you have unique circumstances that you feel should be factored into your price, or are simply unable to afford our prices, please [contact us](/contact).
 We are more than happy to arrange personalised quotes.
+
+## Changelog
+
+You can view Binscure's changelog (March 2020-Present) [here](/binscure/changelog).
