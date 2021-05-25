@@ -31,7 +31,7 @@ table,td,th {
 
 body > h1,h2,h3,h4,h5,h6,p,ul,hr,pre {
 	width: 900px;
-	max-width: 100vw;
+	max-width: 100%;
 	margin: 0 auto;
 	margin-top: revert;
 	margin-bottom: revert;
